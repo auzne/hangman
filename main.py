@@ -111,7 +111,7 @@ while att != 6:
         else:
             screen.addstr(3, start, ' ', curses.A_UNDERLINE)
         start += 2
-    screen.addstr(5, 15, 'Misses Words', curses.A_UNDERLINE)
+    screen.addstr(5, 15, 'Wrong Letters', curses.A_UNDERLINE)
     start, lg = 15, 7
     for i in miss:
         if start > 50:
